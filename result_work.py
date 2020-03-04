@@ -1,3 +1,5 @@
+#In this module, all possible cards in the deck are formed and the result of the program execution
+
 import Check, Deck, functools
 
 def forming_list_card():

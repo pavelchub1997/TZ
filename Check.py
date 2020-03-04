@@ -1,3 +1,5 @@
+#The module allows you to check for empty list
+
 import Card
 
 def check_if_list_is_empty(list_all_card, val):

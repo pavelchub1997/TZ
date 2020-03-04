@@ -3,7 +3,7 @@
 import Card
 
 def check_if_list_is_empty(list_all_card, val):
-    if val == 0: return []
+    if val == 0 or val>len(list_all_card): return []
     else:
         object_card = Card.Card()
         return object_card.get_card(list_all_card, val)

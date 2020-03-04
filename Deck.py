@@ -1,3 +1,5 @@
+#The module allows you to mix cards and select N cards
+
 import random
 
 class Deck:

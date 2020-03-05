@@ -2,6 +2,7 @@
 
 import random
 
-class Card():
-    def get_card(self, lst, val):
-        return random.sample(lst, val)
+
+class Card:
+    def get_card(self, list_of_selected_card, val):
+        return random.sample(list_of_selected_card, val)
